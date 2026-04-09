@@ -1,0 +1,110 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    background: #1e1e1e;
+}
+
+/* HEADER FIXO */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+/* NAVBAR */
+.nav {
+    width: 90%;
+    margin: auto;
+    background: #eaeaea;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+.logo_simbol{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    background-image:url(./src/img/elev_prise_logo.png);
+    background-size: cover;
+
+}
+.logo {
+    display: flex;
+     width: 150px;
+    height: 25px;
+    margin-right: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b82f6;
+    background-image: url(./src/img/ele_pise_nome.png);
+    background-size: cover;
+    background-color: green;  
+}
+
+/* MENU */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+/* SECTIONS */
+.section {
+    min-height: 100vh;
+    padding-top: 120px; /* espaço pro header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CORES */
+.hero {
+    background: #3f6ea5;
+}
+
+.blue {
+    background: #3f6ea5;
+}
+
+/* BOXES (igual ao seu layout) */
+.box {
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    background: #eaeaea;
+    border-radius: 40px;
+    padding: 30px;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* TEXT */
+h2 {
+    margin-bottom: 10px;
+}
