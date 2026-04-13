@@ -46,25 +46,35 @@
             justify-content: space-between;
             flex-wrap: wrap;
         }
-
-        .logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            background: linear-gradient(135deg, #1A3E60, #2B5F8A);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-            cursor: default;
+        .logo_conteiner{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: pink;
         }
 
-        .logo span {
-            font-weight: 300;
-            color: #2c6e9e;
-            background: none;
-            -webkit-background-clip: unset;
-            background-clip: unset;
-            color: #2c6e9e;
+        .img_logo{
+            width: 60px;
+            height: 60px;
+            align-items: center;
+            justify-content: center;
+            background-image: url(./src/img/elev_prise_logo.png);
+            background-size: cover;
+            background-color: green;
+
+        }
+
+        .logo {
+            background-image: url(./src/img/ele_pise_nome.png);
+            background-size: cover;
+            width: 200px;
+            height: 90px;
+            cursor: default;
+            align-items: center;
+            justify-content: center;
+            background-color: blueviolet;
+           
         }
 
         .nav-links {
@@ -460,7 +470,10 @@
     <!-- BARRA FIXA (topo) com navegação interna -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Elev<span>Prise</span></div>
+          <div class="logo_conteiner">
+             <div class="img_logo"></div>
+             <div class="logo"></div>
+          </div>
             <ul class="nav-links">
                 <li><a href="#home">Início</a></li>
                 <li><a href="#servicos">Nossos Serviços</a></li>
