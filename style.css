@@ -221,18 +221,39 @@
             text-align: center;
             margin-bottom: 3rem;
             position: relative;
-            color: #fff;
+            color:#f9fcfe;
         }
 
         .section-title:after {
             content: '';
             width: 70px;
             height: 4px;
-            background: var(--azul-principal);
+            background: #f9fcfe;
             display: block;
             margin: 0.8rem auto 0;
             border-radius: 4px;
         }
+
+        .section-title-s{
+             font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+            color:var(--azul-principal);
+        }
+
+        .section-title-s:after{
+           content: '';
+            width: 70px;
+            height: 4px;
+            background: var(--azul-principal);
+            display: block;
+            margin: 0.8rem auto 0;
+            border-radius: 4px; 
+        }
+
+        
 
         .cards-grid {
             display: grid;
