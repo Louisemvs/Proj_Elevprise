@@ -56,7 +56,7 @@
         .img_logo {
             width: 60px;
             height: 60px;
-            background-image: url('./src/img/elev_prise_logo.png');
+            background-image: url('../src/img/elev_prise_logo.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -65,7 +65,7 @@
         .logo {
             width: 200px;
             height: 60px;
-            background-image: url('./src/img/ele_pise_semnome.png');
+            background-image: url('../src/img/ele_pise_semnome.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
