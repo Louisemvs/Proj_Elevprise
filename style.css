@@ -131,6 +131,8 @@
            background: linear-gradient(120deg, #eef5fc, #ffffff);
             border-radius: 0 0 40px 40px;
             margin-bottom: 2rem;
+            height: 82vh;
+            padding-top: 100px;
         }
 
         .hero-grid {
@@ -141,9 +143,10 @@
             gap: 2rem;
         }
 
-        .hero-content {
+        .hero-content{
             flex: 1;
         }
+
 
         .hero-content h1 {
             font-size: 3.2rem;
@@ -209,6 +212,7 @@
         /* Seção Nossos Serviços */
         .servicos {
             background: var(--azul-escuro);
+            height: 105vh;
         }
 
         .section-title {
@@ -224,7 +228,7 @@
             content: '';
             width: 70px;
             height: 4px;
-            background: var(--verde-destaque);
+            background: var(--azul-principal);
             display: block;
             margin: 0.8rem auto 0;
             border-radius: 4px;
@@ -280,6 +284,7 @@
         /* Seção Sobre Nós */
         .sobre {
             background: #f5f9fe;
+            height: 85vh;
         }
 
         .sobre-content {
@@ -326,13 +331,15 @@
 
         .sobre-img i {
             font-size: 9rem;
-            color: #1e5a7e;
+            color: var(--azul-principal);
         }
 
         /* Seção Automação SCM (diferencial moderno) */
         .automacao {
             background: linear-gradient(135deg, var(--azul-escuro), var(--azul-medio));
-;
+           height: 75vh;
+            
+
         }
 
         .diferencial-grid {
@@ -353,7 +360,7 @@
 
         .dif-item i {
             font-size: 2.8rem;
-            color: var(--verde-destaque);
+            color: var(--azul-principal);
             margin-bottom: 1rem;
         }
 
